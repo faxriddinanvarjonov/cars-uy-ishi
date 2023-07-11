@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fff;
+}
+
+a:hover {
+  color: fuchsia;
+}
+.car,
+.menu {
+  font-size: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.menu {
+  background-image: url("../imgs/bernd-dittrich-bw3EiAkQQOo-unsplash.jpg");
+}
+.bernd {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../imgs/erik-odiin-DH_IAgZkJP4-unsplash.jpg");
+}
+.supraz {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../imgs/dan-gold-N7RiDzfF2iw-unsplash.jpg");
+}
+.fast {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../imgs/egor-vikhrev-S0cqn0mZU0E-unsplash.jpg");
+}
+.fastest {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../imgs/mini\ fast\ car.jpg");
+}
+.menu {
+  text-align: center;
+}
